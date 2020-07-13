@@ -1,7 +1,7 @@
 # Lý thuyết về CheckMK
 ## OMD - Open Monitoring Distribution
 * **Phân phối giám sát mở** là một gói đóng kín bao gồm [Nagios](Note/Nagios.md) cùng với các tiện ích bổ sung cho việc thu thập, giám sát và vẽ dữ liệu đồ thị.
-* Nó đi kèm với [Check_MK multisite](), một cung cụ toàn diện giải quyết nhiều thiếu sót của Nagios. Nó cung cung cấp một giao diện web để dẽ dàng quản trị và cấu hình, một bảng điều khiển thân thiệt với người dùng, một hệ thống mạnh mẽ và các agent giám sát dễ cài đặt cho nhiều bản phân phối Linux.
+* Nó đi kèm với [Check_MK multisite](Note/Multisite.md), một cung cụ toàn diện giải quyết nhiều thiếu sót của Nagios. Nó cung cung cấp một giao diện web để dẽ dàng quản trị và cấu hình, một bảng điều khiển thân thiệt với người dùng, một hệ thống mạnh mẽ và các agent giám sát dễ cài đặt cho nhiều bản phân phối Linux.
 * Nếu không có CheckMK multisite, chúng ta sẽ phải sử dụng các view khác nhau cho nhiệm vụ khác nhau và sẽ không thể cấu hình tất cả các thiết lập mà không cần phải làm việc với các tệp cấu hình.
 
 OMD với Check_MK giúp mọi người dễ dàng thiết lập hệ thống theo dõi riêng của họ.
