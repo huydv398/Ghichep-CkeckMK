@@ -8,7 +8,13 @@ Multisite mang đến nhiều tính năng như:
 - Tự động hóa và dịch vụ Web (API)
 - Bảng điều khiển (Dashboards) 
 - Localization
-
+**Giao diện web** 
+* Sử dụng để xem thông tin và kiểm soát hệ thống giám sát.
+* Kết hợp WATO để có thể hỗ trợ cấu hình bằng website 
+* WATO là tập hợp nhiều modules được sử dụng để cấu hình cho Check_MK server 
+* Mỗi khi có thay đổi cần chọn cập nhật thay đổi
+* Có sẵn các agent giám sát được lưu trữ và hiển thị sẵn trên web
+* Có phiên bản tối ưu hóa trên điện thoại
 **Views**
 
 Multisite cho phép mỗi người dùng tùy chỉnh các chế độ xem dựng sẵn hoặc các chế độ xem dựng sẵn hoặc tạo các chế độ xem hoàn toàn mới. Điều này được thực hiện trong GUI bằng cách kết hợp linh hoạt các nguồn dữ liệu, bố cục, bộ lọc, sắp xếp, nhóm, vẽ theo cột và xem liên kết. Ý tưởng đằng sau là, các quản trị viên của hệ thống giám sát sẽ có thể tạo các chế độ xem tùy chỉnh cho người dùng hoặc khách hàng của họ, trong khi những người được trình bày một GUI càng đơn giản các tốt.
