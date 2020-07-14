@@ -46,5 +46,27 @@ Check_MK là một phần của OMD, hiện tại đang có 2 phiên bản Check
 
 Nó đi kèm với một bộ kiểm tra hệ thống, một [mod_python]() và JavaScript dựa trên giao diện người dùng Web, và một Module cho phép truy cập nhanh vào lõi Nagios.
 
-* Check_MK là một mã nguồn mở, đa nền và ứng dụng web dựa trên phân phối miễn phí được thiết kế từ những bù đắp để cung cấp cho người dùng với một cách mới để thu thập dữ liệu từ các hệ điều hành hoặc các thành phần mạng. Phần mềm [obsolete]() các [NRPE](), [check_by_ssh](), [NSClient]() và ứng dụng [check_snmp](). Nó cung cấp giảm đáng kể việc sử dụng CPU trên Nagios chủ, cũng như các thành phần tồn đọng được kiểm tra trên máy chủ.
-* Ứng dụng bao gồm ba công cụ tuyệt vời, nhiều trang, một trạng thái tính năng giao diện để (GUI-Graphical User Interface) cho Nagios, dựa trên [LiveStatus]()
+* Check_MK là một mã nguồn mở, đa nền và ứng dụng web dựa trên phân phối miễn phí được thiết kế từ những bù đắp để cung cấp cho người dùng với một cách mới để thu thập dữ liệu từ các hệ điều hành hoặc các thành phần mạng. Phần mềm [obsolete]() các [NRPE](), [check_by_ssh](), [NSClient]() và ứng dụng [check_snmp](https://vi.wikipedia.org/wiki/SNMP#:~:text=SNMP%20vi%E1%BA%BFt%20t%E1%BA%AFt%20t%E1%BB%AB%20ti%E1%BA%BFng,thi%E1%BA%BFt%20b%E1%BB%8B%20m%E1%BA%A1ng%20t%E1%BB%AB%20xa.)(*Tập hợp các giao thức kiểm tra các thiết bị mạng như Router, switch hay server và hỗ trợ vận hành các thiết bị này một cách tối ưu*). Nó cung cấp giảm đáng kể việc sử dụng CPU trên Nagios chủ, cũng như các thành phần tồn đọng được kiểm tra trên máy chủ.
+* Ứng dụng bao gồm ba công cụ tuyệt vời, nhiều trang, một trạng thái tính năng giao diện để (GUI-Graphical User Interface) cho Nagios, dựa trên [LiveStatus](Note/livestatus.md); MK LiveStatus, một modules liên kết sự kiện; và **Wato**(*là tập hợp nhiều modules được sử dụng để cấu hình cho Check_MK server*), một giao diện cấu hình (GUI). Features tại một tính năng GlanceKey bao gồm một phương pháp tốt và hấp dẫn cho cấu hình giám sát Nagios bằng cách kích hoạt bằng cách cấu hình root và và công nhận dịch vụ tự động thay đổi thay vì sử dụng Nagios và dữ liệu cấu hình, hỗ trợ cho các hợp đồng mỗi máy chủ một lần mỗi khoảng thời gian kiểm tra, cũng như hỗ trợ việc gửi kết quả kiểm tra Nagios, tiết kiệm nhiều tài nguyên trên máy khách và máy chủ hệ thống.
+
+Check_MK Cung cấp hệ thống thông báo linh hoạt và đơn giản mà có thể dễ dàng cấu hình. Hệ thống thông báo hỗ trợ xác định và cấu hình của nhiều kênh cho người dùng khác nhau, nhưng người dùng cũng có thể cấu hình các hệ thống thông báo Themselves.Supports DevicesAnother di động tính năng thú vị là khả năng sử dụng các ứng dụng trực tiếp từ một thiết bị di động. Nó cho phép người dùng thiết bị di dộng để dễ dàng truy cập dữ liệu trạng thái.
+
+### Round RObin Database(RRD)
+* Đây là dạng DB mặc định mà Check_MK dùng để lưu trữ dữ liệu thông tin
+* Thông tin của DB được lưu trữ dưới dạng bảng và cột để lưu trữ dữ liệu
+* Có thể hợp nhất được dữ liệu của một khoảng thời gian lại vào làm một.
+* Có thể truy vấn được dữ liệu trong RRD bằng LiveStatus Language
+* Lưu ý ngôn ngữ truy vấn này phân biệt chữ hoa và chữ thường
+* Có thể sử dụng các Header để lọc thông tin hiển thị từ các truy vấn được sử dụng
+* Khi dữ liệu được ghi đầy thì nó sẽ được ghi đè lên dữ liệu cũ
+
+## Site
+* Để có thể thực hiện giám sát thì cần tạo ra một site để có thể sử dụng
+* Một server có thể tạo được nhiều site
+* Để đăng nhập được vào site thì cần có user để đăng nhập, Chia làm 3 loại:
+    * Administrator
+    * Guest 
+    * Normal monitoring
+
+* Có 2 User mặc định có quyền Administrator là omdadmin và cmkadmin
+* Site là cách gọi của sản phẩn được tạo ra từ nhiều Multisite
