@@ -51,7 +51,7 @@ Nó đi kèm với một bộ kiểm tra hệ thống, một [mod_python]() và 
 
 Check_MK Cung cấp hệ thống thông báo linh hoạt và đơn giản mà có thể dễ dàng cấu hình. Hệ thống thông báo hỗ trợ xác định và cấu hình của nhiều kênh cho người dùng khác nhau, nhưng người dùng cũng có thể cấu hình các hệ thống thông báo Themselves.Supports DevicesAnother di động tính năng thú vị là khả năng sử dụng các ứng dụng trực tiếp từ một thiết bị di động. Nó cho phép người dùng thiết bị di dộng để dễ dàng truy cập dữ liệu trạng thái.
 
-### Round RObin Database(RRD)
+### Round Robin Database(RRD)
 * Đây là dạng DB mặc định mà Check_MK dùng để lưu trữ dữ liệu thông tin
 * Thông tin của DB được lưu trữ dưới dạng bảng và cột để lưu trữ dữ liệu
 * Có thể hợp nhất được dữ liệu của một khoảng thời gian lại vào làm một.
