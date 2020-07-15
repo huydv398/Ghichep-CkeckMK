@@ -8,7 +8,9 @@ Mục lục
 
 ## 1.Mô hình triển khai
 
+Tạo một máy chủ CentOS-7 làm Check_MK Server 
 ## 2.IPPlanning
+![Imgur](https://i.imgur.com/2fbMS38.png)
 ## 3. Thiết lập ban đầu
 
 #### Cài đặt các gói cần thiết
