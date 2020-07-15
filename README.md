@@ -7,4 +7,4 @@
 * [Checkmk-multisite](Note/Multisite.md)
 
 ## Thực hành cài đặt
-1. [Cài đặt Ckeck_MK Server](setup-Check_MK.md)
+1. [Cài đặt Ckeck_MK Server](Thuchanh/setup-Check_MK.md)
