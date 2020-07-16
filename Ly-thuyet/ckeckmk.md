@@ -50,7 +50,7 @@ Nó đi kèm với một bộ kiểm tra hệ thống, một [mod_python]() và 
 * Ứng dụng bao gồm ba công cụ tuyệt vời, nhiều trang, một trạng thái tính năng giao diện để (GUI-Graphical User Interface) cho Nagios, dựa trên [LiveStatus](Note/livestatus.md); MK LiveStatus, một modules liên kết sự kiện; và **Wato**(*là tập hợp nhiều modules được sử dụng để cấu hình cho Check_MK server*), một giao diện cấu hình (GUI). Features tại một tính năng GlanceKey bao gồm một phương pháp tốt và hấp dẫn cho cấu hình giám sát Nagios bằng cách kích hoạt bằng cách cấu hình root và và công nhận dịch vụ tự động thay đổi thay vì sử dụng Nagios và dữ liệu cấu hình, hỗ trợ cho các hợp đồng mỗi máy chủ một lần mỗi khoảng thời gian kiểm tra, cũng như hỗ trợ việc gửi kết quả kiểm tra Nagios, tiết kiệm nhiều tài nguyên trên máy khách và máy chủ hệ thống.
 
 Check_MK Cung cấp hệ thống thông báo linh hoạt và đơn giản mà có thể dễ dàng cấu hình. Hệ thống thông báo hỗ trợ xác định và cấu hình của nhiều kênh cho người dùng khác nhau, nhưng người dùng cũng có thể cấu hình các hệ thống thông báo Themselves.Supports DevicesAnother di động tính năng thú vị là khả năng sử dụng các ứng dụng trực tiếp từ một thiết bị di động. Nó cho phép người dùng thiết bị di dộng để dễ dàng truy cập dữ liệu trạng thái.
-
+## Các thành phần có trong Check_MK
 ### Round Robin Database(RRD)
 * Đây là dạng DB mặc định mà Check_MK dùng để lưu trữ dữ liệu thông tin
 * Thông tin của DB được lưu trữ dưới dạng bảng và cột để lưu trữ dữ liệu
@@ -70,3 +70,44 @@ Check_MK Cung cấp hệ thống thông báo linh hoạt và đơn giản mà c�
 
 * Có 2 User mặc định có quyền Administrator là omdadmin và cmkadmin
 * Site là cách gọi của sản phẩn được tạo ra từ nhiều Multisite
+
+## Multisite
+**Check_MK** tận dụng sự trực quan của multisite web **GUI**(The graphical user interface) để hiển thị thông tin giám sát. Multisite dựa trên livestatus vì thế nó cực kỳ nhanh và nhanh và nhạy trong các cài đặt lớn.
+
+Multisite mang đến nhiều tính năng như:
+- Lượt xem xác định của người dùng.
+- Hỗ trợ giám sát phân tán qua livestatus
+- Tùy chỉnh sidebar với nội dung động
+- Tự động hóa và dịch vụ Web (API)
+- Bảng điều khiển (Dashboards) 
+- Localization
+**Giao diện web** 
+* Sử dụng để xem thông tin và kiểm soát hệ thống giám sát.
+* Kết hợp WATO để có thể hỗ trợ cấu hình bằng website 
+* WATO là tập hợp nhiều modules được sử dụng để cấu hình cho Check_MK server 
+* Mỗi khi có thay đổi cần chọn cập nhật thay đổi
+* Có sẵn các agent giám sát được lưu trữ và hiển thị sẵn trên web
+* Có phiên bản tối ưu hóa trên điện thoại
+**Views**
+
+Multisite cho phép mỗi người dùng tùy chỉnh các chế độ xem dựng sẵn hoặc các chế độ xem dựng sẵn hoặc tạo các chế độ xem hoàn toàn mới. Điều này được thực hiện trong GUI bằng cách kết hợp linh hoạt các nguồn dữ liệu, bố cục, bộ lọc, sắp xếp, nhóm, vẽ theo cột và xem liên kết. Ý tưởng đằng sau là, các quản trị viên của hệ thống giám sát sẽ có thể tạo các chế độ xem tùy chỉnh cho người dùng hoặc khách hàng của họ, trong khi những người được trình bày một GUI càng đơn giản các tốt.
+
+Các yếu tố của chế độ xem như bố cục, bộ lọc, v.v có thể được mở rộng thông qua Python bằng cách sử dụng khái niệm Plugin
+
+**Distributed monitoring** (giám sát phân tán)-
+
+Giám sát phân tán là cực kỳ hữu ích trong nhiều tình huống. **Check_MK** cho phép xem dữ liệu tập chung cũng như sao chép dữ liệu đến các trang web từ xa.
+## Livestatus 
+* Là một phần quan trọng trong Check_MK. Nó giúp Check_MK truy xuất dữ liệu một cách nhanh chóng
+* Livestatus sẽ sử dụng Socket để lấy dữ liệu để trả lời truy vấn do đó tốc độ truy vấn của nó không còn phụ thuộc vào tốc độ I/O như là lưu dữ liệu trong File.
+* Khi truy xuất dữ liệu bằng Command line thì Livestatus sẽ phân biệt chữ hoa chữ thường.
+* Livestatus sẽ sử dụng Socket để check dữ liệu do đó công việc được phân đều cho các CPU
+
+### Các thành phần phụ trợ
++ Check_MK BI - công cụ phân tích tác vụ / quy trình nghiệp vụ (dựa trên quy tắc, nếu bạn xác định quy tắc cho "tất cả máy chủ" và bạn thêm máy chủ mới, quy tắc cũng áp dụng ngay cho máy chủ đó).
+
++ WATO - giao diện quản trị web cho cấu hình check_mk (và nagios) (dựa trên quy tắc)
+
++ Event Console - giao diện xử lý sự kiện dựa trên quy tắc để xử lý dữ liệu tức là đến từ SNMP Traps hoặc Syslog. 
+
+Ckeck_MK là phần mở rộng của hệ thống giám sát Nagios cho phép tạo cấu hình dựa trên quy tắc bằng Python
