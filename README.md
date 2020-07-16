@@ -8,5 +8,5 @@
 
 ## Thực hành cài đặt
 1. [Cài đặt Ckeck_MK Server](Thuchanh/setup-Check_MK.md)
-2. [Add Agent](Thuchanh/setup-agent.md)
+2. [Add Agent](Thuchanh/Setup-agent.md)
 3. [Add host](Thuchanh/addhost.md)
