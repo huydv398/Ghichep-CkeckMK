@@ -8,3 +8,4 @@
 
 ## Thực hành cài đặt
 1. [Cài đặt Ckeck_MK Server](Thuchanh/setup-Check_MK.md)
+2. [Add host](Thuchanh/addhost.md)
