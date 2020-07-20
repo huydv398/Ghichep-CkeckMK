@@ -18,3 +18,5 @@
 1. [Cài đặt Ckeck_MK Server](Thuchanh/setup-Check_MK.md)
 2. [Add Agent](Thuchanh/Setup-agent.md)
 3. [Add host](Thuchanh/addhost.md)
+4. [Gửi cảnh báo qua Telegram](Thuchanh/cmk-telegram.md)
+5. [Gửi cảnh báo qua Gmail -Postfix](Thuchanh/cmk-gmail.md)
