@@ -52,12 +52,11 @@ Chọn <Update!>
 
 `omd start cmk`
 
-
 Kiểm tra trên Web 
 
 ![Imgur](https://i.imgur.com/hZVZMCT.png)
 
->Lưu ý: Khi update lên 1.6 phần thiết lập cảnh báo qua telegram sẽ bị mất bạn phải config lại
+>**Lưu ý**: Khi update lên 1.6 phần thiết lập cảnh báo qua telegram sẽ bị mất bạn phải config lại
 
 Như vậy đã thành công Việc Update lên Bản Raw 1.6.0p14
 
