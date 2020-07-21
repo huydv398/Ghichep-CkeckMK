@@ -11,6 +11,7 @@
 
 4. [Giao diện người dùng Check_MK](Ly-thuyet/interface.md)
 
+5. [WATO Configuration](Ly-thuyet/wato.md)
 
 ***Các thành phần liên quan và chú thích***
 * [Nagios](Ly-thuyet/Note/Nagios.md)
@@ -23,3 +24,5 @@
 4. [Gửi cảnh báo qua Telegram](Thuchanh/cmk-telegram.md)
 5. [Gửi cảnh báo qua Gmail -Postfix](Thuchanh/cmk-gmail.md)
 6. [Cài đặt dịch vụ giám sát HTTP](Thuchanh/http.md)
+7. [Update Versions](Thuchanh/update.md)
+8. [Giám sát Process Linux bởi CheckMK](Thuchanh/process-linux.md)
