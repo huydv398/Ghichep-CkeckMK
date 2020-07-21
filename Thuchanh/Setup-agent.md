@@ -45,9 +45,18 @@ Cài đặt agent
 
 `rpm -ivh check-mk-agent-1.6.0p10-1.noarch.rpm`
 
+or
+
+`dpkg -i check-mk-agent_1.6.0p10-1_all.deb`
+
 Cài đặt xinetd
 
 `yum install xinetd -y`
+
+or
+
+`apt-get install xinetd`
+
 
 Khởi động xinetd
 
