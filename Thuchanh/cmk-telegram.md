@@ -130,5 +130,6 @@ Kích hoạt các thay đổi
 
 Kéo đến `VARIOUS COMMANDS` - Chọn `SEND` Đợi khoảng 1 phút để cảnh báo về telegram.
 
-[Imgur](https://i.imgur.com/CKCFKOC.png)
+![Imgur](https://i.imgur.com/CKCFKOC.png)
 
+Trên là quá trình tạo cảnh báo Check_MK qua Telegram
