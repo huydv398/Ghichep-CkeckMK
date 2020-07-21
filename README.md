@@ -9,6 +9,8 @@
 
 3. [Các nguyên tắc cơ bản của giám sát CheckMK](Ly-thuyet/ali.md)
 
+4. [Giao diện người dùng Check_MK](Ly-thuyet/interface.md)
+
 
 ***Các thành phần liên quan và chú thích***
 * [Nagios](Ly-thuyet/Note/Nagios.md)
@@ -20,3 +22,4 @@
 3. [Add host](Thuchanh/addhost.md)
 4. [Gửi cảnh báo qua Telegram](Thuchanh/cmk-telegram.md)
 5. [Gửi cảnh báo qua Gmail -Postfix](Thuchanh/cmk-gmail.md)
+6. [Cài đặt dịch vụ giám sát HTTP](Thuchanh/http.md)
