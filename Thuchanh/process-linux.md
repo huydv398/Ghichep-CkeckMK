@@ -4,4 +4,5 @@ Ngữ cảnh Sử dụng: Trong CheckMK có nhiều tiến trình Process chạy
 
 CheckMK đã hỗ trợ check các thông số này thông qua kiểu manual ckeck. Dưới đây là các bước thực hiện cơ bản ví dụ để giám sát Process httpd
 
-Thao tác trên giao diện WATO Check_MK
+## Thao tác trên giao diện WATO Check_MK
+
