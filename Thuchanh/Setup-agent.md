@@ -94,6 +94,11 @@ Mở port trên firewall
  firewall-cmd --add-port=6556/tcp --permanent
  firewall-cmd --reload
 ```
+or
+```
+ufw allow 6556/tcp
+ufw reload
+```
 
 Tắt SELinux
 
