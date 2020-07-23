@@ -27,3 +27,7 @@
 7. [Update Versions](Thuchanh/update.md)
 8. [Giám sát Process Linux bởi CheckMK](Thuchanh/process-linux.md)
 9. [Cấu hình ngưỡng cảnh báo cho dịch vụ](Thuchanh/Set-threshold.md)
+10. [Giám sát Port TCP](Thuchanh/monitor-port.md)
+11. [Giám sát dịch vụ MySQL](Thuchanh/monitor-sql.md)
+12. [Giám sát dịch vụ Apache](Thuchanh/monitor-httpd.md)
+13. [Giám sát số lượng process của dịch vụ](Thuchanh/count-process.md)
