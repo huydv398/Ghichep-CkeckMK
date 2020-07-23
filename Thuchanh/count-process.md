@@ -41,7 +41,7 @@ Bây giờ chúng ta tiến hành giám sát các tiến trình dịch vụ sshd
 
 Tại **WATO** chọn `Manual checks` -> tìm `State and count of processes`
 
-[Imgur](https://i.imgur.com/yIvRWfY.png)
+![Imgur](https://i.imgur.com/yIvRWfY.png)
 
 Tạo một rule mới
 
