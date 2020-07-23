@@ -61,4 +61,4 @@ Thay đổi và kích hoạt
 
 ![Imgur](https://i.imgur.com/TzPJ8DE.png)
 
-[Imgur](https://i.imgur.com/d7vEpBM.png)
+![Imgur](https://i.imgur.com/d7vEpBM.png)
