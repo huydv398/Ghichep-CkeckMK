@@ -13,6 +13,9 @@
 
 5. [WATO Configuration](Ly-thuyet/wato.md)
 
+6. [Giám sát Agent](Ly-thuyet/monitor_agent.md)
+7. [Hiểu và cấu hình dịch vụ](Ly-thuyet/wato-sevice.md)
+
 ***Các thành phần liên quan và chú thích***
 * [Nagios](Ly-thuyet/Note/Nagios.md)
 * [Checkmk-multisite](Ly-thuyet/Note/Multisite.md)
