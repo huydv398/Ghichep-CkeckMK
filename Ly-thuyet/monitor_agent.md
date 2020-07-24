@@ -17,6 +17,8 @@ Bảng sau đây là bốn cách khác nhau mà CheckMK có thể truy cập d�
 
 ## [Tải xuống và cài đặt Agent](https://github.com/huydv398/Ghichep-CkeckMK/blob/master/Thuchanh/Setup-agent.md)
 
+[Tải xuống](../Thuchanh/Setup-agent.md)
+
 ## Cấu hình thông qua RULE
 
 Cấu hình của Agent có thể được thay đổi- trong checkMK thông qua các RULE. Chúng cung cấp cho bạn khả năng thay đổi các máy chủ khác nhau với các cài đặt hoặc bổ sung khác nhau. Thông qua rule bạn có thể liệt kê các danh sách rule sets thông qua các agent
