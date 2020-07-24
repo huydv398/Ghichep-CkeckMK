@@ -15,9 +15,7 @@ Bảng sau đây là bốn cách khác nhau mà CheckMK có thể truy cập d�
 ![Imgur](https://i.imgur.com/swKK4Gp.png)
 
 
-## [Tải xuống và cài đặt Agent](https://github.com/huydv398/Ghichep-CkeckMK/blob/master/Thuchanh/Setup-agent.md)
-
-[Tải xuống](../Thuchanh/Setup-agent.md)
+## [Tải xuống và cài đặt Agent](../Thuchanh/Setup-agent.md)
 
 ## Cấu hình thông qua RULE
 
