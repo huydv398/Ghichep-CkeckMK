@@ -1,0 +1,4 @@
+SNMP-CheckMK truy cập Agent SNMP hiện có của thiết bị đích. Với các truy vấn hoạt động (GET), nó thu thập chi tiết về tình trạng của hệ thống/SNMP-Agent enabled(Phải được kích hoạt)
+CheckMK-Agent/CheckMK có các Agent riêng cho server và Workstation. Agent passive and connect bằng TCP Poet 6556. Chỉ khi nhận được truy vấn máy chủ CheckMK, chúng mới được kích hoạt và phản hồi dữ liệu cần thiết/Đã được cài đặt CheckMK-Agent
+Special Agent/Một số hệ thống không cho phép cài đặt Agent, cũng như không hỗ trợ SNMP ở dạng có thể sử dụng được. Thay vào đó chúng cung cấp API quản lý dựa trên TELNET, SSH hoặc HTTP./Tạo một tài khoản API cho CheckMK
+Active Checks/Các dịch vụ dựa trên mạng như HTTP, SMTP hoặc IMAP có thể được truy vấn thông qua network . Ví dụ Check-HTTP rất phổ biến để truy vấn các trang web. 	
