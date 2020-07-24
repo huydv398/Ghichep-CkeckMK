@@ -11,4 +11,4 @@ Cách thức hoạt động: Kiểm tra tham số/ các ngưỡng cảnh báo ch
 ## 2. Host service in WATO 
 ### 2.1 Kết hợp một máy chủ mới
 
-Khi thêm một máy chủ mới trong WATO, bước tiếp theo là gọi ra danh sách các dịch vụ. Với hành động này, việc phát hiện dịch vụ trong lần đầu tiên cho máy chủ. 
+Khi thêm một máy chủ mới trong WATO, bước tiếp theo là gọi ra danh sách các dịch vụ. Với hành động này, việc phát hiện dịch vụ trong lần đầu tiên cho máy chủ.  
