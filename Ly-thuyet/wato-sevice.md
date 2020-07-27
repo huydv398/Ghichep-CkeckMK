@@ -31,7 +31,7 @@ Chọn dịch vụ cần giám sát
 
 ### 2.2 Thêm các dịch vụ
 
-!Đường Văn Huy[Imgur](https://i.imgur.com/d7XdYhy.png)
+![Imgur](https://i.imgur.com/d7XdYhy.png)
 
 Chọn Service -> Monitor. Kích hoạt lại các thay đổi
 
