@@ -152,6 +152,10 @@ Trên là hướng dẫn Gửi cảnh báo về Gmail khi Server có thay đổi
 
 link tham khảo:
 
+https://news.cloud365.vn/huong-dan-gui-mail-dung-postfix/
+
 https://news.cloud365.vn/checkmk-1-6-cau-hinh-canh-bao-qua-email/
 
 https://checkmk.com/cms_notifications.html
+
+https://news.cloud365.vn/canh-bao-check_mk-cung-voi-gmail/
