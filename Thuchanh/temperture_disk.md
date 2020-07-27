@@ -1,0 +1,1 @@
+# Giám sát nhiệt độ disk
