@@ -1,4 +1,4 @@
-# CheckMK
+# Các phần ghi chép về OMD-CheckMK
 ## Lý thuyết
 1. [Lý thuyết về OMD - CheckMK](Ly-thuyet/ckeckmk.md)
 2. [Cấu trúc lõi Monitoring core](Cautruc/Monitoring.md)
@@ -6,15 +6,13 @@
 2.1 [Livestatus](Cautruc/Livestaus.md)
 
 2.2 [LiveCheck](Cautruc/LiveCheck.md)
-
 3. [Các nguyên tắc cơ bản của giám sát CheckMK](Ly-thuyet/ali.md)
-
 4. [Giao diện người dùng Check_MK](Ly-thuyet/interface.md)
-
 5. [WATO Configuration](Ly-thuyet/wato.md)
-
 6. [Giám sát Agent](Ly-thuyet/monitor_agent.md)
 7. [Hiểu và cấu hình dịch vụ](Ly-thuyet/wato-sevice.md)
+8. [Tìm hiểu giao thức SNMP](Ly-thuyet/snmp.md)
+* 9. [Một số lệnh omd](Ly-thuyet/cmd-omd.md)
 
 ***Các thành phần liên quan và chú thích***
 * [Nagios](Ly-thuyet/Note/Nagios.md)
@@ -34,3 +32,12 @@
 11. [Giám sát dịch vụ MySQL](Thuchanh/monitor-sql.md)
 12. [Giám sát dịch vụ Apache](Thuchanh/monitor-httpd.md)
 13. [Giám sát số lượng process của dịch vụ](Thuchanh/count-process.md)
+* 14. [Cấu hình giám sát Volume group và Logical Volume](Thuchanh/vlg.md)
+* 15. [Inventory](Thuchanh/Inventory.md)
+* 16. [Cài đặt plugin uname](Thuchanh/uname.md)
+* 17. [Giám sát Switch qua giao thức SNMP](Thuchanh/switch.md)
+* 18. [Giám sát nhiệt độ Disk](Thuchanh/temperture_disk.md)
+* 19. [Hướng dẫn Backup toàn bộ cấu hình của 1 site bằng lệnh](Thuchanh/backupsite.md)
+
+* 20. [Quản lý site trên OMD](Thuchanh/manage.md)
+* 21. [Thư mục lưu trữ các metric của các host khi thu thập](Thuchanh/folder.md)
