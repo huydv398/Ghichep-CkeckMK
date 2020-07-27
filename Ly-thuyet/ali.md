@@ -118,7 +118,11 @@ Một số tình huống quan trọng sử dụng khoảng thời gian:
 * Giới hạn thời gian thực hiện kiểm tra (Thời gian kiểm tra)
 * Thời gian phục vụ cho việc đánh giá tính khả dụng (Thời gian phục vụ)
 * Thời gian trong đó bảng điều khiển sự kiện sẽ áp dụng quy tắc xác định
+## Active and passive Checks
 
+Khi click vào menu của dịch vụ mà xuất hiện icon ![Imgur](https://i.imgur.com/3tYScom.png) thì có nghĩa là active check. Việc check service này là do checkmk chủ động thực hiện. 
+
+Nếu thấy icon ![Imgur](https://i.imgur.com/pUmidxQ.png) thì có nghĩa đây là passive check. Dữ liệu do agent trả về.
 ## Tổng quan về các biểu tượng máy chủ và dịch vụ quan trong nhất
 
 ![Imgur](https://i.imgur.com/Fj7rR8v.png)
