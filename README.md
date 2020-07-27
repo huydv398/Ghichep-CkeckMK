@@ -6,6 +6,7 @@
 2.1 [Livestatus](Cautruc/Livestaus.md)
 
 2.2 [LiveCheck](Cautruc/LiveCheck.md)
+
 3. [Các nguyên tắc cơ bản của giám sát CheckMK](Ly-thuyet/ali.md)
 4. [Giao diện người dùng Check_MK](Ly-thuyet/interface.md)
 5. [WATO Configuration](Ly-thuyet/wato.md)
