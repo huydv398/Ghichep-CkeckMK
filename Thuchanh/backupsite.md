@@ -1,0 +1,1 @@
+https://github.com/datkk06/meditech-ghichep-omd/blob/master/docs/10.1.Manage-Backup-site-on-web.md
