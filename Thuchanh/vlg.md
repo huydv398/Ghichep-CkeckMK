@@ -33,3 +33,4 @@ Kết quả:
 
 ![Imgur](https://i.imgur.com/bEMvqF3.png)
 
+https://github.com/niemdinhtrong/thuctapsinh/blob/master/NiemDT/Ghichep_checkmk/docs/07.Giam-sat-disk-lvm.md
