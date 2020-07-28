@@ -40,6 +40,6 @@
 * 18. [Giám sát nhiệt độ Disk](Thuchanh/temperture_disk.md)
 19. [Hướng dẫn Backup toàn bộ cấu hình của 1 site bằng lệnh](Thuchanh/backupsite.md)
 
-* 20. [Quản lý site trên OMD](Thuchanh/manage.md)
-* 21. [Thư mục lưu trữ các metric của các host khi thu thập](Thuchanh/folder.md)
-22. [Event Console](Thuchanh/eventcons.md)
+20. [Quản lý site trên OMD](Thuchanh/manage.md)
+21. [Event Console](Thuchanh/eventcons.md)
+22. [Một số thủ thuật với OMD](Thuchanh/folder.md)
