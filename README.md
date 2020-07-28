@@ -38,7 +38,7 @@
 * 16. [Cài đặt plugin uname](Thuchanh/uname.md)
 * 17. [Giám sát Switch qua giao thức SNMP](Thuchanh/switch.md)
 * 18. [Giám sát nhiệt độ Disk](Thuchanh/temperture_disk.md)
-* 19. [Hướng dẫn Backup toàn bộ cấu hình của 1 site bằng lệnh](Thuchanh/backupsite.md)
+19. [Hướng dẫn Backup toàn bộ cấu hình của 1 site bằng lệnh](Thuchanh/backupsite.md)
 
 * 20. [Quản lý site trên OMD](Thuchanh/manage.md)
 * 21. [Thư mục lưu trữ các metric của các host khi thu thập](Thuchanh/folder.md)
