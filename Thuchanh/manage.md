@@ -38,4 +38,65 @@ Usage (called as root):
 
 ```
 
-Tạo một site mới
+## Tạo một site mới
+
+Trước khi sử dụng được CheckMK thì cần phải tạo một site Web UI
+
+`omd create [tên_site]`
+
+[Imgur](https://i.imgur.com/5eFqChN.png)
+
+Như vậy một site có tên là: site đã được tạo ra và phần thông tin trong hình. Mặc định, Username được cấp là **cmkadmin** và Password: **PD5H74Wf**
+
+## Cấu hình site
+
+`omd config site`
+
+![Imgur](https://i.imgur.com/b1p1Vzv.png)
+
+* `Basic`: Cấu hình Core của OMD
+
+![Imgur](https://i.imgur.com/XWVlxsj.png)
+
+* `Web UI`: Cấu hình Web UI
+
+![Imgur](https://i.imgur.com/O6QEzBh.png)
+
+* `Addons`: Cấu hình các Addon
+
+!https://i.imgur.com/ML3uJMS.png
+
+* `Distributed Monitoring`: Cấu hình giám sát tập chung
+
+![Imgur](https://i.imgur.com/gmwS5s5.png)
+
+## Khởi động site
+
+`omd start site`    
+
+Truy cập Web UI bằng :
+
+`http:Địa_chỉ_ip/site`
+
+Giao diện sau khi đăng nhập:
+
+![Imgur](https://i.imgur.com/KzCdEwq.png)
+
+## Đổi mật khẩu cho `cmkadmin`
+
+để đảm bảo tính an toàn bảo mật, chúng ta thay đổi user và password cho **site**
+
+![Imgur](https://i.imgur.com/AH72ywC.png)
+
+Nhập thông tin mới Password cho user **cmkadmin**
+
+![Imgur](https://i.imgur.com/gjRkTyu.png)
+
+Sau đó **Save**
+
+## Dừng hoạt động của site
+
+`omd stop site`
+
+## Xóa site
+`omd rm site`
