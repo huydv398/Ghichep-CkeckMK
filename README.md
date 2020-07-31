@@ -43,4 +43,4 @@
 20. [Quản lý site trên OMD](Thuchanh/manage.md)
 21. [Event Console](Thuchanh/eventcons.md)
 22. [Một số thủ thuật với OMD](Thuchanh/folder.md)
-
+23. [Sử dụng Plgin kiểm tra sự thay đổi file](Thuchanh/checkMk-CheckMD5.md)
