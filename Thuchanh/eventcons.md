@@ -64,6 +64,9 @@ Chọn các Action khi bản tin match với rule ở trên. Ở đây tôi ch�
 
 ![Imgur](https://i.imgur.com/lNwJuEk.png)
 
+Hành động gửi cảnh báo
+
+![Imgur](https://i.imgur.com/0CU2095.png)
 Sau đó lưu lại
 
 Bạn có thể fake một bản tin để xem rule của bạn có hoạt động đúng như mong muốn không. Khai báo các giá trị muốn fake trong trường **EVENT SIMULATOR** và chon **Try out**. Nếu thấy biểu tượng như sau thì đã match
