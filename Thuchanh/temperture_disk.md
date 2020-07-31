@@ -1,1 +1,7 @@
-# Giám sát nhiệt độ disk
+# Giám sát nhiệt độ disk bằng Plugin SMART
+
+Vào host cần giám sát chạy các lệnh sau:
+
+```
+
+```
