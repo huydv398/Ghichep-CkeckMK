@@ -26,3 +26,15 @@ Lưu ý cần khai báo rõ đường dẫn đến file. Ví dụ kiểm tra 2 f
 Kiểm tra
 
 `check_mk_agent | grep "File_md5"`
+
+
+![Imgur](https://i.imgur.com/wrcL4Y9.png)
+
+## Trên Web bulk Discovery 
+
+Tại máy cài Agent chỉnh sửa file.
+
+Cảnh báo được gửi về
+
+![Imgur](https://i.imgur.com/D1v61qr.png)
+
