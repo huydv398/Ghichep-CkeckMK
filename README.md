@@ -44,3 +44,11 @@
 21. [Event Console](Thuchanh/eventcons.md)
 22. [Một số thủ thuật với OMD](Thuchanh/folder.md)
 23. [Sử dụng Plgin kiểm tra sự thay đổi file](Thuchanh/checkMk-CheckMD5.md)
+
+
+## Option
+
+1. [Lệnh mtr](Ly-thuyet/mtr.md)
+2. [](Ly-thuyet/)
+3. [](Ly-thuyet/)
+4. [](Ly-thuyet/)
