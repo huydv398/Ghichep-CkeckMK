@@ -49,6 +49,12 @@
 ## Option
 
 1. [Lệnh mtr](Ly-thuyet/mtr.md)
-2. [](Ly-thuyet/)
+2. [ping](Ly-thuyet/ping.md)
 3. [](Ly-thuyet/)
 4. [](Ly-thuyet/)
+
+Link tham khảo:
+
+* https://news.cloud365.vn/?s=checkmk
+
+* https://github.com/niemdinhtrong/thuctapsinh/tree/master/NiemDT
