@@ -50,7 +50,8 @@
 
 1. [Lệnh mtr](Ly-thuyet/mtr.md)
 2. [ping](Ly-thuyet/ping.md)
-3. [](Ly-thuyet/)
+3. [Restart postfix](Ly-thuyet/postfix.md)
+3. [Restart postfix](Ly-thuyet/)
 4. [](Ly-thuyet/)
 
 Link tham khảo:
