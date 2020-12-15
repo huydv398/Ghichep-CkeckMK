@@ -24,7 +24,7 @@ Cài đặt postfix và một số gói liên quan
 
 `yum -y install postfix cyrus-sasl-plain mailx`
 
-Đặt postfix như MTA mặc định của hệ thống
+Đặt postfix như MTA mặc định của hệ thống, (MTA tạm hiểu là tác nhân chuyển thư. Đây là dịch vụ xử lý các tin nhắn trực tuyến: chuyển thư từ máy tính đến một nơi khác)
 
 `alternatives --set mta /usr/sbin/postfix`
 
